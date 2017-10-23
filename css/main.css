@@ -31,7 +31,7 @@ a:active {
     background: ;
     color:#fff;
 }
-ul li:first-child  {        /*se indica que la primera opcion de nuestra lista de menu tiee que ser el color
+ul li:first-child  {        /*se indica que la primera opcion de nuestra lista de menu tiene que ser el color
                               hsl(46, 93%, 54%) */
     background: hsl(46, 93%, 54%);
 }
