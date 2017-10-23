@@ -21,8 +21,8 @@ a {
     color:#000;
     padding-left: 8px;
 }
-/*cambiamos el color a las letras  y le damos estilo al pasar el cursor por las 
-                            opciones del menu */
+   /*cambiamos el color a las letras  y le damos estilo al pasar el cursor por las 
+    opciones del menu */
 a:hover {
     background: #e0e0d1; 
 }
@@ -31,8 +31,8 @@ a:active {
     background: ;
     color:#fff;
 }
-ul li:first-child  {        /*se indica que la primera opcion de nuestra lista de menu tiene que ser el color
-                              hsl(46, 93%, 54%) */
+ul li:first-child  {           /*se indica que la primera opcion de nuestra lista de menu tiene que ser el color
+                                hsl(46, 93%, 54%) */
     background: hsl(46, 93%, 54%);
 }
 ul li :first a {
