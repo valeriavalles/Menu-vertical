@@ -1,33 +1,38 @@
 
 
 body {
-    font-family: sans-serif;
-    background-color: rgb(229, 253, 248)
+    font-family: sans-serif;/*para indicar el tipo de letra*/
+    background-color: rgb(240, 252, 189)/*para darle color a nuestro fondo de pagina*/
 }
 nav {
-    width: 200px;
+    width: 200px;/*agregando el ancho a la seccion del nav(navegador) que es parte de la
+                  semantica del html */
 }
-ul {
-    list-style: none;
+ul {                 
+    list-style: none; /*quitandole el estilo que viene por defecto las viñetas*/
     margin: 0;
     padding: 0;
-    line-height: 30px;
+    line-height: 30px; /*dandole el alto de la lista */
 }
 a {
-    display: block;
-    text-decoration: none;
+    display: block;   /*por defecto las etiquetas  "a"(que son para enlazar) son de tipo inline
+                    y necitamos cambiar su display a block para que puedan ocupar el espacio que le pedimos*/
+    text-decoration: none; 
     color:#000;
     padding-left: 8px;
 }
+/*cambiamos el color a las letras  y le damos estilo al pasar el cursor por las 
+                            opciones del menu */
 a:hover {
-    background: #e0e0d1;
+    background: #e0e0d1; 
 }
 a:active {
     background: #9a91a9;
     background: ;
     color:#fff;
 }
-ul li:first-child  {
+ul li:first-child  {        /*se indica que la primera opcion de nuestra lista de menu tiee que ser el color
+                              hsl(46, 93%, 54%) */
     background: hsl(46, 93%, 54%);
 }
 ul li :first a {
